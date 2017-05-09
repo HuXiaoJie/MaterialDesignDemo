@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<group android:checkableBehavior="single">
+
+		<item
+			android:id="@+id/nav_home"
+			android:title="山西"/>
+
+		<item
+			android:id="@+id/nav_messages"
+			android:title="河北"/>
+
+		<item
+			android:id="@+id/nav_friends"
+			android:title="天津"/>
+
+		<item
+			android:id="@+id/nav_discussion"
+			android:title="北京"/>
+	</group>
+
+	<item android:title="Version">
+
+		<menu>
+
+			<item
+				android:title="Android"/>
+
+			<item
+				android:title="iOS"/>
+		</menu>
+	</item>
+
+</menu>
